@@ -11,11 +11,11 @@ mvn -version
 mvn archetype:generate
 ```
 
-#Use different profiles
+# Use different profiles
 ```
 mvn clean package -P prod
 mvn clean package -Denv=prod
 
-#Run app
+# Run app
 java -jar target/firstTuturial-1.0-SNAPSHOT.jar
 ```
